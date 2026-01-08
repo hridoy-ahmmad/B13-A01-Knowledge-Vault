@@ -27,6 +27,11 @@
 .btn:hover {
     background-color: #207543;
 }
+.para{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+}
 
 /* Header */
 header {
@@ -134,5 +139,34 @@ nav ul li a:hover {
     background: #469165;
     border-radius: 50%;
     box-sizing: border-box;
+}
 
+.note{
+    text-align: center;
+    margin-top: 48px;
+}
+.note h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 44px;
+    padding: 24px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 0px 4px 1px rgba(0, 0, 0, 0.05);
+}
+.card img{
+ background: #F95555;
+ padding: 16px;
+ border-radius: 50%;
+}
+.cards-collection{
+    display: flex;
+    gap: 25px;
+}
+h4{
+    line-height: 48px;
 }
