@@ -33,6 +33,10 @@
     line-height: 24px;
 }
 
+.flex{
+    display: flex;
+}
+
 /* Header */
 header {
     display: flex;
@@ -143,14 +147,15 @@ nav ul li a:hover {
 
 .note{
     text-align: center;
-    margin-top: 48px;
+    margin-top: 72px;
 }
-.note h1{
+.note h1, .brain-section h1{
     font-size: 48px;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .card{
-    margin-top: 44px;
+    margin-top: 56px;
     padding: 24px;
     height: 260px;
     display: flex;
@@ -169,4 +174,19 @@ nav ul li a:hover {
 }
 h4{
     line-height: 48px;
+}
+.brain-section {
+   align-items: center;
+   gap: 60px;
+   margin-top: 72px;
+   margin-bottom: 72px;
+}
+.CheckCircle-para{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #001931e0;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 700;
 }
