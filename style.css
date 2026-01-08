@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared style  */
+.max-w{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.btn{
+    padding:12.5px 16px;
+    background: #30B868;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight:600;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #207543;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:16px 0 ;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+
+}
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+nav ul li a:hover{
+    color: #207543;
+}
+
