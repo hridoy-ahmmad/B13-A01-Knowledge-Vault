@@ -238,7 +238,11 @@ footer  .footer-container{
 
 .icons {
     display: flex;
-    gap: 5px;
+    gap: 8px;
+    color: black;
+}
+.icons a{
+    color: black;
 }
 .copy-right{
     color: white;
